@@ -18,6 +18,7 @@ const BADGE_MAP: Record<string, { emoji: string; label: string }> = {
   Criativo: { emoji: "🎭", label: "Criativo" },
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function FinalScreen({ room, playerId, sendAction }: Props) {
   const { play } = useSound();
   const sorted = [...room.scores]
@@ -28,6 +29,7 @@ export function FinalScreen({ room, playerId, sendAction }: Props) {
 
   useEffect(() => {
     play("fanfare");
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

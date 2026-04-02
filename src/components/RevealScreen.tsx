@@ -33,6 +33,7 @@ export function RevealScreen({ room, playerId, sendAction }: Props) {
       }, 2500);
       return () => clearTimeout(timer);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [room.revealIndex]);
 
   if (!revealed) return null;

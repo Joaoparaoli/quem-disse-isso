@@ -1,4 +1,4 @@
-import { Room, Player, Score } from "./types";
+import { Room, Player } from "./types";
 import { generateCode } from "./code";
 import { colorFromName } from "./colors";
 import { getRoom, setRoom, roomExists } from "./redis";

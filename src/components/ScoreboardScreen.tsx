@@ -20,6 +20,7 @@ export function ScoreboardScreen({ room, playerId, sendAction }: Props) {
 
   useEffect(() => {
     play("levelup");
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
