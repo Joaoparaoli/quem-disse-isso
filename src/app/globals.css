@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0f0f1a;
+}
+
+input, textarea {
+  background-color: #1e1e2e;
+  color: white;
+  border: 1px solid #2e2e3e;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.3);
+}
